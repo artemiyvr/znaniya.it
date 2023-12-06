@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Другие атрибуты стиля -->
+        <item name="colorPrimary">#969AB8</item>
+        <item name="colorPrimaryDark">#7285A9</item>
+        <item name="colorAccent">#49557E</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#FD4A4A</item>
+        <item name="android:endColor">#48B889</item>
+        <item name="android:windowBackground">@drawable/custom_dialog_background</item>
+        <item name="android:textColorPrimary">@color/navigation_bar_color</item>
+    </style>
+</resources>

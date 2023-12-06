@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/your_color"
+    tools:context=".main">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="402dp"
+        android:layout_height="355dp"
+        android:layout_marginTop="90dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/inteface1"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/starttestbutton"
+        android:layout_width="246dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="128dp"
+        android:backgroundTint="@color/your_color_accent"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Перейти к выбору курса"
+        android:textColor="@color/your_color"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="246dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#4549557E"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="О приложении"
+        android:textColor="@color/your_color"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/starttestbutton" />
+
+    <Button
+        android:id="@+id/exitButton2"
+        android:layout_width="246dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Выйти из приложения"
+        android:textColor="@color/your_color_accent"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="85dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="154dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+        <activity
+            android:name=".enginfo4"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".engtest4"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".cinfo"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ctest"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".cifinfo"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ciftest"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".testlist4"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".resulttest4"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".webinfo"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".webtest"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".enginfo3"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".engtest3"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".sisinfo"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".sistest"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".kotinfo"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".kottest"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".bdinfo"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".bdtest"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".enginfo2"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".engtest2"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".cplusinfo"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".cplustest"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".arhinfo"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".arhtest"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".kurslist"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".settings"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".engtest1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".enginfo1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pascaltest"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pascalinfo"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rustest"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rusinfo"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".resulttest1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".resulttest3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".testlist3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".matemtest"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mateminfo"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".testlist1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".testlist2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".alginfo"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".algtest"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".resulttest2"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".info"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".loading"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

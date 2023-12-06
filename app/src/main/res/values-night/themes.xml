@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#969AB8</item>
+        <item name="colorPrimaryDark">#7285A9</item>
+        <item name="colorAccent">#49557E</item>
+    </style>
+</resources>
